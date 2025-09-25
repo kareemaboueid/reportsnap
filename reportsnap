@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# reportsnap - A command-line tool for reporting snapshots for your Linux system
+# Author: Kareem Aboueid
+
+
+main() {
+
+    if [ -f "./ascii-art.txt" ]; then
+        cat "./ascii-art.txt"
+    fi
+    echo ""
+    echo -e "\e[1mHello World\e[0m"
+    echo ""
+
+}
+# ------
+
+# Entry point
+main "$@"
